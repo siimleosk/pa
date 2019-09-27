@@ -4,3 +4,5 @@ kommentaarid
 Neljas rida
 Viies rida
 */
+
+// üks rida
