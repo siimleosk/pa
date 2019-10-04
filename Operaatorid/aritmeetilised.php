@@ -12,7 +12,7 @@
             background-color: crimson;
         }
     </style>
-    <title>Document</title>
+    <title>Aritmeetilised operaatorid</title>
     </head>
     <body>
 <?php
