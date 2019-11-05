@@ -1,0 +1,51 @@
+#content {
+    width: 80%;
+    background: #f4f4f4;
+    margin: 30px auto 0 auto;
+    padding: 20px 30px;
+    border-radius: 8px;
+    overflow: auto;
+}
+
+h1 {
+    border-bottom: rgb(163, 0, 0) solid 1px;
+}
+
+h2 {
+    text-align: center;
+    border-bottom: red 1px solid;
+}
+
+.red-box {
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 10px 10px 10px 0;
+    padding: 10px;
+    color: white;
+    background-color: rgba(255, 0, 0, 1);
+}
+
+.green-box {
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 10px 10px 10px 0;
+    padding: 10px;
+    color: white;
+    background-color: green;
+}
+
+.blue-box {
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 10px 10px 10px 0;
+    padding: 10px;
+    color: white;
+    background-color: blue;
+}
+
+.clear {
+    clear: both;
+}
