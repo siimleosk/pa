@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="khk">
+  <component name="PublishConfigData" autoUpload="On explicit save action" serverName="khk" uploadOnCheckin="26b8b069-2990-4ba1-b4c5-b5e19c129e8b" autoUploadExternalChanges="true">
     <serverData>
       <paths name="khk">
         <serverdata>
@@ -10,5 +10,7 @@
         </serverdata>
       </paths>
     </serverData>
+    <option name="myUploadOnCheckinName" value="khk" />
+    <option name="myAutoUpload" value="ON_EXPLICIT_SAVE" />
   </component>
 </project>

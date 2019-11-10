@@ -2,7 +2,7 @@
 
 // defineerime muutujad
 $x = 5;
-$y = -5;
+$y = 2;
 // jagame üks arv teisega
 $jagatis = $x / $y;
 // kontrollime, kas jagaja on 0

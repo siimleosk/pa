@@ -1,5 +1,5 @@
 <?php
+$suvanr = mt_rand();
 
-
-echo round(mt_rand())
+echo round($suvanr)
 ?>
