@@ -1,0 +1,8 @@
+<?php
+
+function veereta(){
+    $suvanr = rand(1,6);
+    return "Sinu viskeks osutus $suvanr";
+};
+echo veereta();
+?>
