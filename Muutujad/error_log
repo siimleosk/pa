@@ -1,0 +1,4 @@
+[04-Oct-2019 05:58:42 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/leosksiimiktkhk/public_html/php/pa/Muutujad/test.php on line 11
+[04-Oct-2019 05:59:15 UTC] PHP Parse error:  syntax error, unexpected ''<br>'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/leosksiimiktkhk/public_html/php/pa/Muutujad/test.php on line 13
+[04-Oct-2019 05:59:17 UTC] PHP Parse error:  syntax error, unexpected ''<br>'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/leosksiimiktkhk/public_html/php/pa/Muutujad/test.php on line 13
+[04-Oct-2019 06:00:13 UTC] PHP Parse error:  syntax error, unexpected ''<br>'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/leosksiimiktkhk/public_html/php/pa/Muutujad/test.php on line 13

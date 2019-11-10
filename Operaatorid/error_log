@@ -1,0 +1,6 @@
+[04-Oct-2019 06:24:04 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/leosksiimiktkhk/public_html/php/pa/Operaatorid/aritmeetilised.php on line 35
+[04-Oct-2019 06:24:40 UTC] PHP Parse error:  syntax error, unexpected '$x' (T_VARIABLE), expecting ',' or ';' in /home/leosksiimiktkhk/public_html/php/pa/Operaatorid/aritmeetilised.php on line 35
+[04-Oct-2019 06:25:03 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/leosksiimiktkhk/public_html/php/pa/Operaatorid/aritmeetilised.php on line 35
+[04-Oct-2019 06:27:49 UTC] PHP Warning:  A non-numeric value encountered in /home/leosksiimiktkhk/public_html/php/pa/Operaatorid/aritmeetilised.php on line 35
+[04-Oct-2019 06:41:58 UTC] PHP Parse error:  syntax error, unexpected 'round' (T_STRING), expecting ',' or ';' in /home/leosksiimiktkhk/public_html/php/pa/Operaatorid/aritmeetilised.php on line 73
+[10-Oct-2019 07:58:47 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting ',' or ';' in /home/leosksiimiktkhk/public_html/php/pa/Operaatorid/tingimused.php on line 6
