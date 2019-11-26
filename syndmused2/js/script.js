@@ -34,6 +34,19 @@ function validateNameField(name, event) {
     }
 };
 
+function validatePasswordField(password, event) {
+    if (!isValidPassword(password)) {
+        $("#password-feedback").text("Vähemalt 6 sümbolit!");
+        event.preventDefault();
+    } else {
+        $("#password-feedback").text("");
+    }
+
+    function isValidPassword(password) {
+        return password.length >= 6;
+    }
+};
+
 $(function () {
     $("#form").submit(function (event) {
         var name = $("#name").val();
@@ -42,7 +55,7 @@ $(function () {
         var checked = $("#checked").is(":checked");
 
         validateNameField(name, event);
-
+        validatePasswordField(password, event);
 
 
     });
