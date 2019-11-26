@@ -1,3 +1,4 @@
+// Funktsioon värvide kohta
 $(function () {
     var inputFields = $("input:text, input:password, textarea");
 
@@ -16,5 +17,33 @@ $(function () {
         } else {
             $(this).css("box-shadow", "0 0 4px #181");
         }
+    });
+});
+
+// Funktsioon nime valideerimise kohta
+function validateNameField(name, event) {
+    if (!isValidName(name)) {
+        $("#name-feedback").text("Sisesta vähemalt 3 tähemärki!");
+        event.preventDefault();
+    } else {
+        $("#name-feedback").text("");
+    }
+
+    function isValidName(name) {
+        return name.length >= 3;
+    }
+};
+
+$(function () {
+    $("#form").submit(function (event) {
+        var name = $("#name").val();
+        var password = $("#pw").val();
+        var message = $("#message").val();
+        var checked = $("#checked").is(":checked");
+
+        validateNameField(name, event);
+
+
+
     });
 });
