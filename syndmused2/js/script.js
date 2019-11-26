@@ -33,7 +33,7 @@ function validateNameField(name, event) {
         return name.length >= 3;
     }
 };
-
+//Funktsioon parooli valideerimise kohta
 function validatePasswordField(password, event) {
     if (!isValidPassword(password)) {
         $("#password-feedback").text("Vähemalt 6 sümbolit!");
@@ -47,15 +47,24 @@ function validatePasswordField(password, event) {
     }
 };
 
+function validateCheckbox(isChecked, event) {
+    if (!isChecked) {
+        $("#checkbox-feedback").text("Nõustu tingimustega!");
+        event.preventDefault();
+    } else {
+        $("#checkbox-feedback").text("");
+    }
+}
+//Funktsioon vormi valideerimise kohta
 $(function () {
     $("#form").submit(function (event) {
         var name = $("#name").val();
         var password = $("#pw").val();
-        var message = $("#message").val();
-        var checked = $("#checked").is(":checked");
+        var isChecked = $("#checkbox").is(":checked");
 
         validateNameField(name, event);
         validatePasswordField(password, event);
+        validateCheckbox(isChecked, event);
 
 
     });
