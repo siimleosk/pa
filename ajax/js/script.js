@@ -1,19 +1,15 @@
 $(function () {
-    var flickrApiUrl = "https://www.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
-    $.getJSON(flickrApiUrl, {
-        tags: "sun, beach",
-        tagmode: "any",
-        format: "json"
-    }).done(function (data) {
+    var pokeApiUrl = "https://pokeapi.co/api/v2/generation/1/";
+    $.getJSON(pokeApiUrl).done(function (data) {
         console.log(data);
-        $.each(data.items, function (index, item) {
-            console.log(item);
-            $("<img>").attr("src", item.media.m).appendTo("#flickr");
-            if (index == 4) {
-                return false;
-            }
+        $.each(data.pokemon_species, function (index, pokemon) {
+            var name = pokemon.name.charAt(0).toUpperCase() + pokemon.name.slice(1);
+            var par = $("<p>").html("Pokemoni liigi number " + (index + 1) + " on " + name);
+            par.appendTo("#pokemon");
         });
     }).fail(function () {
-        alert("Ajax päring ei toimi");
+        console.log("Pokeapi pole kättesaadav");
+    }).always(function () {
+        console.log("Pokemon on äge");
     });
 });
